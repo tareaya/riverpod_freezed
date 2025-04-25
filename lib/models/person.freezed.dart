@@ -79,8 +79,8 @@ as String,
 
 
 /// @nodoc
-@JsonSerializable()
 
+@JsonSerializable(explicitToJson: true)
 class _Person implements Person {
   const _Person({required this.id, required this.name, required this.email});
   factory _Person.fromJson(Map<String, dynamic> json) => _$PersonFromJson(json);

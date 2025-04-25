@@ -16,6 +16,7 @@ flutter pub add dev:json_serializable
 1. Ejecutar el freezed
 ```
 flutter pub run build_runner build --delete-conflicting-outputs
+dart run build_runner build --delete-conflicting-outputs
 dart run build_runner watch -d
 ```
 
